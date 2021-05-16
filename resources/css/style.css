@@ -4,13 +4,19 @@ body {
 
 .contnrhead {
     display: flex;
+}
+
+.logobaatz {
+    display: flex;
     flex-basis: 40%;
 }
 
+
+}
 .menu {
     display: flex;
+    justify-content: center;
 }
-
 ul {
     display: inline-block;
     text-transform: uppercase;
