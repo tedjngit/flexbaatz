@@ -1,0 +1,15 @@
+body {
+    font-family: 'Trebuchet MS, Arial, sans-serif';
+}
+
+.contnrhead {
+    display: flex;
+}
+
+.menu {
+    display: inline;
+}
+
+ul {
+    display: flex;
+}
