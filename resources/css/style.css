@@ -4,12 +4,14 @@ body {
 
 .contnrhead {
     display: flex;
+    flex-basis: 40%;
 }
 
 .menu {
-    display: inline;
+    display: flex;
 }
 
 ul {
-    display: flex;
+    display: inline-block;
+    text-transform: uppercase;
 }
