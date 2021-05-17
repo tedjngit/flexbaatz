@@ -3,18 +3,18 @@ body {
 }
 
 .contnrhead {
-    display: flex;
+    display: inline;
 }
 
 .logobaatz {
-    display: flex;
-    flex-basis: 40%;
+    display: inline;
+    flex-basis: 35%;
 }
 
 
 }
 .menu {
-    display: flex;
+    display: inline-block;
     justify-content: center;
 }
 ul {
