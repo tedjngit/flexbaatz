@@ -1,24 +1,30 @@
 body {
     font-family: 'Trebuchet MS, Arial, sans-serif';
     display: inline-block;
+    width: 100%;
 }
 
 .contnrhead {
-    display: inline;
+    display: flex;
+    width: 97%;
 }
 
 .logobaatz {
-    display: inline;
-    flex-basis: 35%;
+    display: flex;
+    flex-basis: 30%;
 }
 
 
 }
 .menu {
-    display: inline-block;
+    display: flex;
+    flex-basis: 65%;
     justify-content: center;
 }
 ul {
     display: inline-block;
     text-transform: uppercase;
+}
+li {
+    flex-basis: 22%;
 }
