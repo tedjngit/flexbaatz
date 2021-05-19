@@ -5,9 +5,14 @@ body {
     width: 100%;
 }
 
+header {
+    width: 100%;
+    margin: auto;
+}
+
 .contnrhead {
-    /*  display: flex;
-    flex-direction: row;*/
+    display: flex;
+    flex-direction: row;
     width: 98%;
 }
 
@@ -17,13 +22,18 @@ body {
     width: 30%;
 }
 
+.hdbaatz {
+    width: 45px;
+    height: 30px;
+}
+
 
 }
 .menu {
     display: flex;
     flex-direction: row;
     width: 96%;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 ul {
     display: flex;
