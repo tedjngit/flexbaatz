@@ -1,4 +1,5 @@
 body {
+    /* background-image: url('./resouces/images/baatz_batim.jpg'); */
     font-family: 'Trebuchet MS, Arial, sans-serif';
     display: inline-block;
     width: 100%;
@@ -6,6 +7,7 @@ body {
 
 .contnrhead {
     display: flex;
+    flex-direction: row;
     width: 796px;
 }
 
