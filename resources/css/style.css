@@ -6,33 +6,36 @@ body {
 }
 
 .contnrhead {
-    display: flex;
-    flex-direction: row;
-    width: 796px;
+    /*  display: flex;
+    flex-direction: row;*/
+    width: 98%;
 }
 
 .logobaatz {
     display: flex;
-    width: 155px;
+    flex-direction: column;
+    width: 30%;
 }
 
 
 }
 .menu {
     display: flex;
-    width: 630px;
+    flex-direction: row;
+    width: 96%;
     margin-right: 10px;
 }
 ul {
     display: flex;
-    width: 610px;
+    flex-direction: row;
+    width: 90%;
     text-transform: uppercase;
     font-size: 1.1em;
 }
 li {
-    margin-right: 3px;
-    padding: 3px;
-    width: 150px;
+    display: flex;
+    flex-direction: row;
+    width: 20%;
 }
 nav a:hover {
     color: darkorchid;
