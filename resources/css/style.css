@@ -14,29 +14,36 @@ header {
     display: flex;
     flex-direction: row;
     width: 98%;
+    border: 1px none;
+    margin-top: 5px;
+    ;
 }
 
 .logobaatz {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 30%;
 }
 
 .hdbaatz img {
-    width: 150px;
+    width: 170px;
     height: 110px;
 }
 
 
 }
 .menu {
-    display: flex;
+    position: relative;
+    border: 2px none whitesmoke;
+    display: inline-block;
     flex-direction: row;
     width: 96%;
     margin-right: 5px;
 }
 ul {
-    display: flex;
+    position: relative;
+    border: 2px none whitesmoke;
+    display: inline-block;
     flex-direction: row;
     width: 90%;
     text-transform: uppercase;
